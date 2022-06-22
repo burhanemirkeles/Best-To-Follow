@@ -1,4 +1,5 @@
 import 'package:favorites_to_follow/Screens/HomeScreen/item_card.dart';
+import 'package:favorites_to_follow/Screens/YoutubeScreen/youtube_screen.dart';
 import 'package:favorites_to_follow/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 ItemCard(
                   iconString: IconConstants().youtubeIcon,
-                  routePage: const Text("a"),
+                  routePage: const YoutubeScreen(),
                 ),
               ],
             ),
