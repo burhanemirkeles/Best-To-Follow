@@ -1,1 +1,1 @@
-
+As a person who wastes so much time on social media apps and can not stop himself to jump to videos from videos, I am developing this app to take control of my life. This app basically aims that protect me to the suggestion algorithms' rabbit holes. In the first version, I planned to make this application an application where I can only see the content of the producers with "quality" content in order to spend time in times when I need to be productive and not be distracted. With this "perfect" idea, maybe I can reduce my screen time.
