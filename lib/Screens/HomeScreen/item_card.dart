@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ItemCard extends StatelessWidget {
-  const ItemCard({Key? key, required this.iconString}) : super(key: key);
+  const ItemCard({Key? key, required this.iconString, required this.routePage})
+      : super(key: key);
   final String iconString;
+  final Widget routePage;
 
   @override
   Widget build(BuildContext context) {
@@ -11,12 +13,15 @@ class ItemCard extends StatelessWidget {
         width: 150,
         height: 150,
         decoration: BoxDecoration(
-          color: Colors.lightBlueAccent,
-          //border: Border.all(),
           borderRadius: BorderRadius.circular(15),
         ),
-        child: const Text("asd"),
+        child: Image.asset(iconString),
       ),
+      onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return routePage;
+        }));
+      },
     );
   }
 }
